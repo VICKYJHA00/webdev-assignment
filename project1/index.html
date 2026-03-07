@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vicky Jha - Computer Science Engineering Student passionate about Data Science and Software Engineering">
+    <meta name="theme-color" content="#020202">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Vicky JHA | Portfolio">
+    <meta property="og:description" content="Computer Science Engineering Student passionate about Data Science and Software Engineering">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vicky JHA | Portfolio">
+    <meta name="twitter:description" content="Computer Science Engineering Student passionate about Data Science and Software Engineering">
+    
+    <title>Vicky JHA | Portfolio</title>
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;800&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Scroll Progress Bar (fixed position) -->
+    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Page scroll progress"></div>
+
+    <div class="container">
+        <header class="fade-in">
+            <img 
+                src="https://m.media-amazon.com/images/I/31LoLnTU56L._AC_UF1000,1000_QL80_.jpg" 
+                alt="Vicky Jha - Profile Photo"
+                class="profile-img"
+                loading="eager"
+                width="170"
+                height="170"
+            >
+            <div class="hero-text">
+                <h1>Vicky Jha</h1>
+                <p>Computer Science Engineering Student passionate about Data Science and Software Engineering.</p>
+                <nav class="socials" aria-label="Social media links">
+                    <a href="mailto:vicky76889@gmail.com" class="social-link">Email</a>
+                    <a href="https://www.linkedin.com/in/vicky-jha-10598b325/" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="social-link">LinkedIn</a>
+                    <a href="https://github.com/VICKYJHA00" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="social-link">GitHub</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="fade-in" id="skills">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-title">Languages</div>
+                        <p>Python, SQL, Java, C++</p>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-title">Data Science</div>
+                        <p>Pandas, NumPy, Scikit-Learn</p>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-title">Tools</div>
+                        <p>Power BI, Excel, Tableau, MySQL</p>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-title">Development</div>
+                        <p>VS Code, PyCharm, Jupyter</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="fade-in" id="projects">
+                <h2>Projects</h2>
+                <div class="filter-buttons" role="group" aria-label="Project filter options">
+                    <button type="button" class="btn active" data-filter="all">All</button>
+                    <button type="button" class="btn" data-filter="ml">Machine Learning</button>
+                    <button type="button" class="btn" data-filter="web">Web Dev</button>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card" data-category="ml">
+                        <div class="project-content">
+                            <span class="project-tag">ML</span>
+                            <h3>Student Performance Prediction</h3>
+                            <p>Advanced predictive model achieving 96% accuracy in forecasting student outcomes.</p>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="web">
+                        <div class="project-content">
+                            <span class="project-tag">Web</span>
+                            <h3>Find My Room Rural</h3>
+                            <p>Web application connecting users with affordable accommodation in rural areas.</p>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="ml">
+                        <div class="project-content">
+                            <span class="project-tag">ML - Vision</span>
+                            <h3>Object Detection (YOLOv8)</h3>
+                            <p>Real-time object detection system using computer vision techniques.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="fade-in" id="education">
+                <h2>Education</h2>
+                <article class="skill-card">
+                    <div class="skill-title">2024 – 2028</div>
+                    <h3>B.Tech in Computer Science</h3>
+                    <p>K.R. Mangalam University, Haryana</p>
+                </article>
+            </section>
+
+            <section class="fade-in" id="certifications">
+                <h2>Certifications</h2>
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-title">Meta</div>
+                        <p>Programming in Python</p>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-title">IBM</div>
+                        <p>Introduction to Data Analytics</p>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-title">Google</div>
+                        <p>Foundations: Data, Data, Everywhere</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; <span id="year"></span> Vicky Jha. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Theme Toggle Button (fixed position) -->
+    <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light theme" title="Toggle theme">⚡</button>
+
+    <noscript>
+        <style>
+            .fade-in { opacity: 1; transform: none; }
+            .progress-bar, .theme-toggle { display: none; }
+        </style>
+    </noscript>
+
+    <script src="script.js"></script>
+    <script>
+        // Dynamic year for footer (graceful degradation)
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
